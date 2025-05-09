@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color: #282c34;;
+}
+
+
+/* Navbar.css */
+
+header {
+  background-color: #282c34;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav img {
+  height: 40px;
+  width: 40px;
+}
+
+nav span {
+  color: #61dafb;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.main-content {
+  background-color: #1f1f1f; /* Dark background similar to navbar */
+  padding: 2rem;
+  text-align: left;
+  max-width: 800px;
+  margin: 2rem auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  color: #fff; /* Ensure text is readable on dark bg */
+}
+
+.main-content h1 {
+  font-size: 2rem;
+  color: #61dafb;
+  margin-bottom: 1rem;
+}
+
+.main-content ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  
+}
+
+.main-content li {
+  margin-bottom: 0.5rem;
+  
+  font-size: 1.1rem;
+}
+
+span > li::marker{
+  color: #61dafb;
+}
